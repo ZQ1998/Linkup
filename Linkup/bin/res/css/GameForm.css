@@ -1,0 +1,49 @@
+// UTF-8
+
+@font-face {
+	font-family: "myttf";
+	src: url("../ttf/myttf.ttf");
+}
+
+#hBox {
+	-fx-background-image: url(/res/image/bg.png);
+}
+
+//剩余时间
+#l2 {
+    -fx-font-family: "Arial Narrow";
+	-fx-font-size: 20px;
+}
+#t {
+	-fx-font-size: 20px;
+}
+
+//剩余提示次数
+#t1 {
+    -fx-font-family: "Arial Narrow";
+	-fx-font-size: 20px;
+}
+
+//按钮
+.button {
+	-fx-text-fill: white;
+	-fx-background-radius: 25;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+	-fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+#grid {	
+	-fx-background-image: url("/res/image/background1.jpg");
+}
+
+//关卡提示
+#text {
+	-fx-font-size: 35px;
+}
