@@ -1,4 +1,5 @@
-# Linkup
+Linkup
+======
 
 This is a small game developed with *Java* and *JavaFX*.
 
