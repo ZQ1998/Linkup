@@ -32,7 +32,7 @@ public class Main extends Application {
 		settingForm = new SettingForm(stage, this, grid);
 		aboutForm = new AboutForm(stage, this);
 
-		stage.initStyle(StageStyle.UNIFIED);
+		//stage.initStyle(StageStyle.UNIFIED);
 		stage.setTitle("连连看");
 		stage.setScene(scene);
 		stage.show();
